@@ -1,0 +1,33 @@
+.header {
+    height: 80px;
+
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #fff;
+    background-color: #0D0D0D;
+}
+.header__container {
+    max-width: 1170px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__information {
+    display: flex;
+}
+.information__block {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+.information__blockImg {
+    margin: 0 15px;
+}
+.information__blockDescription {
+    font-size: 18px;
+}
