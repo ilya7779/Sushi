@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sushi/static/css/main.4d3f7776.css",
-    "main.js": "/Sushi/static/js/main.3078ca8c.js",
+    "main.js": "/Sushi/static/js/main.cea22700.js",
     "static/media/setOne.png": "/Sushi/static/media/setOne.723d6975589f487c5d4f.png",
     "static/media/setTempura.png": "/Sushi/static/media/setTempura.7d3d6b0b834030b81178.png",
     "static/media/setTwo.png": "/Sushi/static/media/setTwo.c9d65baeeca7eaedbc80.png",
@@ -12,8 +12,7 @@
     "static/media/FiraSans-Regular.ttf": "/Sushi/static/media/FiraSans-Regular.f4eb295ecc2fb842d61c.ttf",
     "static/media/tempuraRollWithCrabSticks.png": "/Sushi/static/media/tempuraRollWithCrabSticks.d2aa82f6bc62d4790921.png",
     "static/media/tempuraRollWithShrimp.png": "/Sushi/static/media/tempuraRollWithShrimp.9017317065f5c9aeae16.png",
-    "static/media/cheeseSauce.png": "/Sushi/static/media/cheeseSauce.3af61ed80b07dd87f730.png",
-    "static/media/ginger.png": "/Sushi/static/media/ginger.5d49978b4ed0cbda082e.png",
+    "static/media/cheeseSauce.png": "/Sushi/static/media/cheeseSauce.04c6d29e6c4db655cbb2.png",
     "static/media/tempuraRollWithMusselMeat.png": "/Sushi/static/media/tempuraRollWithMusselMeat.0a3b218f8d7146ab619b.png",
     "static/media/californiaEel.png": "/Sushi/static/media/californiaEel.a70770ca6827bd016198.png",
     "static/media/tempuraRollWithEel.png": "/Sushi/static/media/tempuraRollWithEel.f3d352c1948261d1ff3d.png",
@@ -24,6 +23,7 @@
     "static/media/bonitoTuna.png": "/Sushi/static/media/bonitoTuna.745141ae095999d946ab.png",
     "static/media/canadaCheese.png": "/Sushi/static/media/canadaCheese.a4168122b0bc074cfc23.png",
     "static/media/californiaWithShrimp.png": "/Sushi/static/media/californiaWithShrimp.674451e7fe74e8385b8d.png",
+    "static/media/ginger.png": "/Sushi/static/media/ginger.6e683e512510ab8e1fe7.png",
     "static/media/bonitoSalmon.png": "/Sushi/static/media/bonitoSalmon.1f554666fd5a0b6e4214.png",
     "static/media/friendShrimpInPanko.png": "/Sushi/static/media/friendShrimpInPanko.351ce526fed1be230471.png",
     "static/media/bonitoShrimp.png": "/Sushi/static/media/bonitoShrimp.80e47d05881c62131a91.png",
@@ -32,11 +32,11 @@
     "static/media/musselMeat.png": "/Sushi/static/media/musselMeat.d151df7847ff52d24f7a.png",
     "static/media/greenDragon.png": "/Sushi/static/media/greenDragon.6f2a2726f3cc1d18a2bd.png",
     "static/media/philadelphiaEel.png": "/Sushi/static/media/philadelphiaEel.453e708b8bad392107e0.png",
-    "static/media/sweetChilli.png": "/Sushi/static/media/sweetChilli.e4332fbb7082c870933b.png",
     "static/media/vegan.png": "/Sushi/static/media/vegan.94c624074c53836520fd.png",
     "static/media/californiaTuna.png": "/Sushi/static/media/californiaTuna.ae1257d8a22bba79224e.png",
     "static/media/philadelphiaWithSalmonLight.png": "/Sushi/static/media/philadelphiaWithSalmonLight.3b0c4287da250a614d81.png",
     "static/media/bonitoBabyOctopus.png": "/Sushi/static/media/bonitoBabyOctopus.5221d0130a2318ba596f.png",
+    "static/media/sweetChilli.png": "/Sushi/static/media/sweetChilli.a08acc27d1ec515f41e5.png",
     "static/media/philadelphiaShrimp.png": "/Sushi/static/media/philadelphiaShrimp.57039046913d7b10ed4e.png",
     "static/media/blackDragon.png": "/Sushi/static/media/blackDragon.3e2dac6d84ceb5557ce7.png",
     "static/media/crabRoll.png": "/Sushi/static/media/crabRoll.e2494847716a442ffddc.png",
@@ -54,25 +54,25 @@
     "static/media/gunkanWithShrimp.png": "/Sushi/static/media/gunkanWithShrimp.16ae507488961d6342fd.png",
     "static/media/eel.png": "/Sushi/static/media/eel.572d992da71ad11f76f6.png",
     "static/media/tuna.png": "/Sushi/static/media/tuna.ab7a0c46552c7853b9e7.png",
-    "static/media/unagiSauce.png": "/Sushi/static/media/unagiSauce.eda178e5d11955201df1.png",
     "static/media/gunkanWithTunaAndCucumber.png": "/Sushi/static/media/gunkanWithTunaAndCucumber.0ad54c1708db2471224b.png",
     "static/media/salmon.png": "/Sushi/static/media/salmon.4d07307b1db121dce044.png",
+    "static/media/unagiSauce.png": "/Sushi/static/media/unagiSauce.f18a6ac282b5004af7f1.png",
     "static/media/veganSushi.png": "/Sushi/static/media/veganSushi.cf93e454286df9fcbff0.png",
     "static/media/avocado.png": "/Sushi/static/media/avocado.308d135d80b1e224b4cd.png",
     "static/media/withSalmon.png": "/Sushi/static/media/withSalmon.c6326e6f639ec4c61320.png",
     "static/media/gunkanWithSalmonAndAvocado.png": "/Sushi/static/media/gunkanWithSalmonAndAvocado.6cea790a5610658d2337.png",
     "static/media/withTuna.png": "/Sushi/static/media/withTuna.2d3a599a945671c05048.png",
-    "static/media/spicySauce.png": "/Sushi/static/media/spicySauce.e645251e341c684420e8.png",
     "static/media/shrimpTempura.png": "/Sushi/static/media/shrimpTempura.c635a1d2097c03c1f176.png",
+    "static/media/spicySauce.png": "/Sushi/static/media/spicySauce.172bcca5c2c41fc82e4a.png",
     "static/media/octopus.png": "/Sushi/static/media/octopus.420814f59259b5d90f55.png",
-    "static/media/sushiSticks.png": "/Sushi/static/media/sushiSticks.f4d17e7e58e9584526c7.png",
-    "static/media/soySauce.png": "/Sushi/static/media/soySauce.fdae1cabd2918c38342f.png",
+    "static/media/sushiSticks.png": "/Sushi/static/media/sushiSticks.92f264af1d29010d4d34.png",
+    "static/media/soySauce.png": "/Sushi/static/media/soySauce.255b8139a46fafb94b7e.png",
     "index.html": "/Sushi/index.html",
     "main.4d3f7776.css.map": "/Sushi/static/css/main.4d3f7776.css.map",
-    "main.3078ca8c.js.map": "/Sushi/static/js/main.3078ca8c.js.map"
+    "main.cea22700.js.map": "/Sushi/static/js/main.cea22700.js.map"
   },
   "entrypoints": [
     "static/css/main.4d3f7776.css",
-    "static/js/main.3078ca8c.js"
+    "static/js/main.cea22700.js"
   ]
 }
