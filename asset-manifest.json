@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sushi/static/css/main.4d3f7776.css",
-    "main.js": "/Sushi/static/js/main.e13c0e4a.js",
+    "main.js": "/Sushi/static/js/main.3078ca8c.js",
     "static/media/setOne.png": "/Sushi/static/media/setOne.723d6975589f487c5d4f.png",
     "static/media/setTempura.png": "/Sushi/static/media/setTempura.7d3d6b0b834030b81178.png",
     "static/media/setTwo.png": "/Sushi/static/media/setTwo.c9d65baeeca7eaedbc80.png",
@@ -69,10 +69,10 @@
     "static/media/soySauce.png": "/Sushi/static/media/soySauce.fdae1cabd2918c38342f.png",
     "index.html": "/Sushi/index.html",
     "main.4d3f7776.css.map": "/Sushi/static/css/main.4d3f7776.css.map",
-    "main.e13c0e4a.js.map": "/Sushi/static/js/main.e13c0e4a.js.map"
+    "main.3078ca8c.js.map": "/Sushi/static/js/main.3078ca8c.js.map"
   },
   "entrypoints": [
     "static/css/main.4d3f7776.css",
-    "static/js/main.e13c0e4a.js"
+    "static/js/main.3078ca8c.js"
   ]
 }
