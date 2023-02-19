@@ -6,7 +6,7 @@ import {Main} from "../../pages";
 export const Routes: FC = () => {
   return (
     <RoutesSource>
-      <Route path='/' element={<Main/>}/>
+      <Route path='/Sushi' element={<Main/>}/>
       {/*<Route path='/:isbn13' element={}/>*/}
     </RoutesSource>
   );
