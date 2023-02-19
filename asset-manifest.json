@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sushi/static/css/main.4d3f7776.css",
-    "main.js": "/Sushi/static/js/main.cea22700.js",
+    "main.css": "/Sushi/static/css/main.9c1f301a.css",
+    "main.js": "/Sushi/static/js/main.5e598307.js",
     "static/media/setOne.png": "/Sushi/static/media/setOne.723d6975589f487c5d4f.png",
     "static/media/setTempura.png": "/Sushi/static/media/setTempura.7d3d6b0b834030b81178.png",
     "static/media/setTwo.png": "/Sushi/static/media/setTwo.c9d65baeeca7eaedbc80.png",
@@ -68,11 +68,11 @@
     "static/media/sushiSticks.png": "/Sushi/static/media/sushiSticks.92f264af1d29010d4d34.png",
     "static/media/soySauce.png": "/Sushi/static/media/soySauce.255b8139a46fafb94b7e.png",
     "index.html": "/Sushi/index.html",
-    "main.4d3f7776.css.map": "/Sushi/static/css/main.4d3f7776.css.map",
-    "main.cea22700.js.map": "/Sushi/static/js/main.cea22700.js.map"
+    "main.9c1f301a.css.map": "/Sushi/static/css/main.9c1f301a.css.map",
+    "main.5e598307.js.map": "/Sushi/static/js/main.5e598307.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d3f7776.css",
-    "static/js/main.cea22700.js"
+    "static/css/main.9c1f301a.css",
+    "static/js/main.5e598307.js"
   ]
 }
