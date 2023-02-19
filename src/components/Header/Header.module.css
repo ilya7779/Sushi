@@ -31,3 +31,41 @@
 .information__blockDescription {
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    .information__block {
+        margin: 0;
+    }
+    .information__blockDescription {
+        font-size: 14px;
+    }
+    .information__blockImg img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 480px) {
+    .header__container {
+        padding: 0 10px;
+    }
+    .header__information {
+        gap: 10px;
+    }
+    .information__block {
+        margin: 0;
+    }
+    .information__blockDescription {
+        font-size: 12px;
+    }
+    .information__blockImg {
+        margin: 0 5px;
+    }
+    .information__blockImg img{
+        width: 30px;
+        height: 30px;
+    }
+    .header__socialMedia img {
+        width: 30px;
+        height: 30px;
+    }
+}
