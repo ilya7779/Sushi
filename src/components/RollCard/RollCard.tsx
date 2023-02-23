@@ -2,7 +2,7 @@ import styles from './RollCard.module.css';
 import PhiladelphiaSalmon from "../../assets/photos/PhiladelphiaSalmon.jpg";
 
 export const RollCard = (props: any) => {
-
+  console.log(props.poster)
   return (
     <div className={styles.rollCard}>
       <div className={styles.rollCard__container}>

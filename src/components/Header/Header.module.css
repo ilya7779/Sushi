@@ -54,6 +54,9 @@
     .information__block {
         margin: 0;
     }
+    .information__block:last-child {
+        display: none;
+    }
     .information__blockDescription {
         font-size: 12px;
     }

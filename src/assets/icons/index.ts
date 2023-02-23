@@ -1,3 +1,6 @@
-export * from './deliverFood.png'
-export * from './phone.png'
-export * from './instagram.png'
+import logo from './logo.png'
+import deliverFood from './deliverFood.png'
+import phone from './phone.png'
+import instagram from './instagram.png'
+
+export {logo, deliverFood, phone, instagram}
