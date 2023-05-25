@@ -1,5 +1,4 @@
-import {useState} from "react";
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 import styles from './Sidebar.module.css';
 import {setActiveBurgerAC, useAppDispatch} from "../../store";
