@@ -1,17 +1,27 @@
-import {applyMiddleware, combineReducers, createStore} from 'redux';
-import {composeWithDevTools} from '@redux-devtools/extension';
-import thunk from 'redux-thunk'
+import {AnyAction, applyMiddleware, combineReducers, createStore} from 'redux';
+import thunk, {ThunkAction, ThunkDispatch} from 'redux-thunk'
+import {composeWithDevToolsDevelopmentOnly} from '@redux-devtools/extension';
 
-//import {booksReducer} from './reducers';
 import {useDispatch} from "react-redux";
+import {rollsReducer} from "./reducers";
 
-const rootReducer = combineReducers({
-  //books: booksReducer,
+const composeEnhancers = composeWithDevToolsDevelopmentOnly({
+    traceLimit: 20,
+    trace: true,
 });
 
-export const store = createStore(rootReducer, composeWithDevTools(
-  applyMiddleware(thunk),
-  // devToolsEnhancer(),
-));
+let middlewares = [thunk];
+if (process.env.NODE_ENV === 'development') {
+    middlewares = [...middlewares]; // здесь можно добавить мидлвары, необходимые только development
+}
 
-// export const Dispatch = useDispatch();
+const rootReducer = combineReducers({
+  rolls: rollsReducer,
+});
+
+export const store = createStore(rootReducer, composeEnhancers(applyMiddleware(...middlewares)));
+
+export const useAppDispatch = useDispatch<AppDispatch>;
+export type RootState = ReturnType<typeof store.getState>
+export type AppDispatch = ThunkDispatch<RootState, unknown, AnyAction>
+export type AppThunk<ReturnType = void> = ThunkAction<ReturnType, RootState, unknown, AnyAction>

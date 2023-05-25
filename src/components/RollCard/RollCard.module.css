@@ -46,3 +46,14 @@
     font-weight: 700;
     font-size: 24px;
 }
+
+@media (max-width: 1024px) {
+    .rollCard {
+        width: 290px;
+    }
+}
+@media (max-width: 480px) {
+    .rollCard {
+        width: 210px;
+    }
+}

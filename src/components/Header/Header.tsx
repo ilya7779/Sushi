@@ -21,9 +21,9 @@ export const Header = () => {
             <div className={styles.information__blockDescription}>Доставка на дом: <br/>c 11.00 до 22.00 каждый день</div>
           </div>
         </div>
-        <div className={styles.header__language}>
-          <LanguageSelection />
-        </div>
+        {/*<div className={styles.header__language}>*/}
+        {/*  <LanguageSelection />*/}
+        {/*</div>*/}
         <div className={styles.header__socialMedia}><a href="https://instagram.com/philadelphia_ge?igshid=YmMyMTA2M2Y=">
           <img src={instagram} alt="instagram"/></a>
         </div>

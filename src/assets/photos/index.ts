@@ -58,6 +58,8 @@ import gunkanWithShrimp from './gunkanWithShrimp.png'
 
 import musselTempura from './musselTempura.png'
 import shrimpTempura from './shrimpTempura.png'
+import soupPhiladelphia from './soupPhiladelphia.png'
+import saladWithChuka from './saladWithChuka.png'
 import ginger from './ginger.png'
 import soySauce from './soySauce.png'
 import spicySauce from './spicySauce.png'
@@ -76,5 +78,5 @@ export {philadelphiaSalmon, philadelphiaWithSalmonLight, philadelphiaEel, philad
   friendShrimpInPanko, salmon, eel, tuna, shrimp, octopus, mussel, avocado, cucumber, cheese, setOne, setTwo, setThree,
   setFour, setTempura, withSalmon, withTuna, withEel, withShrimpTempura, veganSushi, gunkanWithSalmonAndAvocado,
   gunkanWithEel, gunkanWithTunaAndCucumber, gunkanWithShrimp, musselTempura, shrimpTempura, ginger, soySauce, spicySauce,
-  cheeseSauce, sweetChilli, wasabi, sushiSticks, unagiSauce}
+  cheeseSauce, sweetChilli, wasabi, sushiSticks, unagiSauce, soupPhiladelphia, saladWithChuka}
 

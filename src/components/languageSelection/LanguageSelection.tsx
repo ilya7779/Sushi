@@ -4,6 +4,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 
 import styles from './LanguageSelection.module.css';
+import {UnitedKingdomFlag} from "../../assets";
 
 export default function LanguageSelection() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -24,7 +25,9 @@ export default function LanguageSelection() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
+        <UnitedKingdomFlag />
         <img src="./../assets/icons/unitedKingdom.png" alt="``````"/>
+        language
       </Button>
       <Menu
         id="basic-menu"
