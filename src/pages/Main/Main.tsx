@@ -1,6 +1,6 @@
 import styles from './Main.module.css';
 import {RollCard} from "../../components";
-import {classicalRolls, gunkans, makiRolls, others, sets, sushi, tempuraRolls} from "../../mocs";
+import {classicalRolls, gunkans, makiRolls, others, sushi, tempuraRolls} from "../../mocs";
 
 
 export const Main = () => {
@@ -14,9 +14,6 @@ export const Main = () => {
   const resultMakiRolls = makiRolls.map((MakiRoll) =>
     <RollCard id={MakiRoll.id} poster={MakiRoll.poster} title={MakiRoll.title}
               composition={MakiRoll.composition} price={MakiRoll.price}/>)
-  const resultSets = sets.map((set) =>
-    <RollCard id={set.id} poster={set.poster} title={set.title}
-              composition={set.composition} price={set.price}/>)
   const resultSushi = sushi.map((currentSushi) =>
     <RollCard id={currentSushi.id} poster={currentSushi.poster} title={currentSushi.title}
               composition={currentSushi.composition} price={currentSushi.price}/>)
@@ -42,10 +39,6 @@ export const Main = () => {
       <h2 className={styles.rollsCards__title}>Маки</h2>
       <div className={styles.containerRollsCards}>
         {resultMakiRolls}
-      </div>
-      <h2 className={styles.rollsCards__title}>Сеты</h2>
-      <div className={styles.containerRollsCards}>
-        {resultSets}
       </div>
       <h2 className={styles.rollsCards__title}>Суши</h2>
       <div className={styles.containerRollsCards}>

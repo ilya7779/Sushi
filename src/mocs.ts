@@ -42,14 +42,14 @@ export const classicalRolls = [
   { id: 14, poster: `${crabRoll}`, title: 'Крабовый ролл',
     composition: 'Состав: рис, нори, огурец, соус унаги, спайси соус, крабовые палочки',
     price: '20,9 GEL' },
-  // { id: 15, poster: `${bonitoSalmon}`, title: 'Бонито с лососем',
-  //   composition: 'Состав: рис, нори, сыр, огурец, соус кимчи, соус унаги, лосось, стружка из тунца', price: '27,9 GEL' },
-  // { id: 16, poster: `${bonitoTuna}`, title: 'Бонито с тунцом',
-  //   composition: 'Состав: рис, нори, сыр, огурец, соус кимчи, соус унаги, тунец, стружка из тунца', price: '29,9 GEL' },
-  // { id: 17, poster: `${bonitoBabyOctopus}`, title: 'Бонито baby c осьминогом',
-  //   composition: 'Состав: рис, нори, сыр, огурец, соус кимчи, соус унаги, осьминог, стружка из тунца', price: '27,9 GEL' },
-  // { id: 18, poster: `${bonitoShrimp}`, title: 'Бонито с креветкой',
-  //   composition: 'Состав: рис, нори, сыр, огурец, соус кимчи, соус унаги, креветка, стружка из тунца', price: '28,9 GEL' },
+  { id: 15, poster: `${bonitoSalmon}`, title: 'Бонито с лососем',
+    composition: 'Состав: рис, нори, сыр, огурец, соус кимчи, соус унаги, лосось, стружка из тунца', price: '27,9 GEL' },
+  { id: 16, poster: `${bonitoTuna}`, title: 'Бонито с тунцом',
+    composition: 'Состав: рис, нори, сыр, огурец, соус кимчи, соус унаги, тунец, стружка из тунца', price: '29,9 GEL' },
+  { id: 17, poster: `${bonitoBabyOctopus}`, title: 'Бонито baby c осьминогом',
+    composition: 'Состав: рис, нори, сыр, огурец, соус кимчи, соус унаги, осьминог, стружка из тунца', price: '27,9 GEL' },
+  { id: 18, poster: `${bonitoShrimp}`, title: 'Бонито с креветкой',
+    composition: 'Состав: рис, нори, сыр, огурец, соус кимчи, соус унаги, креветка, стружка из тунца', price: '28,9 GEL' },
   { id: 19, poster: `${greenDragon}`, title: 'Зелёный Дракон',
     composition: 'Состав: сыр, угорь, авокадо, икра масаго, огурец, соус унаги, кунжут', price: '29,9 GEL' },
   { id: 20, poster: `${blackDragon}`, title: 'Чёрный Дракон',
@@ -126,15 +126,31 @@ export const gunkans = [
 ];
 
 export const others = [
-  { id: 49, poster: `${musselTempura}`, title: 'Темпура мидии',
+  { id: 53, poster: `${musselTempura}`, title: 'Темпура мидии',
     composition: 'Состав: темпура мидии', price: '18,9 GEL' },
-  { id: 50, poster: `${shrimpTempura}`, title: 'Темпура креветки',
+  { id: 54, poster: `${shrimpTempura}`, title: 'Темпура креветки',
     composition: 'Состав: темпура креветки', price: '19,9 GEL' },
-  { id: 51, poster: `${soupPhiladelphia}`, title: 'Суп Филадельфия',
+  { id: 55, poster: `${soupPhiladelphia}`, title: 'Суп Филадельфия',
     composition: 'Состав: лосось, креветки, мидии, лук-порей', price: '13,9 GEL' },
-  { id: 52, poster: `${saladWithChuka}`, title: 'Салат с чукой',
+  { id: 56, poster: `${saladWithChuka}`, title: 'Салат с чукой',
     composition: '', price: '8,9 GEL' },
 ];
+
+export const snacks = [
+  { id: 57, poster: `${musselTempura}`, title: 'Темпура мидии',
+    composition: 'Состав: темпура мидии', price: '18,9 GEL' },
+  { id: 58, poster: `${shrimpTempura}`, title: 'Темпура креветки',
+    composition: 'Состав: темпура креветки', price: '19,9 GEL' },
+];
+
+
+// export const pizza = [
+//   { id: 59, poster: `${musselTempura}`, title: 'Темпура мидии',
+//     composition: 'Состав: темпура мидии', price: '18,9 GEL' },
+//   { id: 60, poster: `${shrimpTempura}`, title: 'Темпура креветки',
+//     composition: 'Состав: темпура креветки', price: '19,9 GEL' },
+// ];
+
 
 // export const sauces = [
 //   { id: 51, poster: `${ginger}`, title: 'Имбирь', composition: '', price: '2 GEL' },

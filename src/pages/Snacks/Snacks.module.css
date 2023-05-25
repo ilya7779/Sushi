@@ -1,0 +1,19 @@
+.containerRollsCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.rollsCards__title {
+    text-align: center;
+    margin: 30px 0;
+
+    font-size: 44px;
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+    .rollsCards__title {
+        font-size: 32px;
+    }
+}
