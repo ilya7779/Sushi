@@ -5,7 +5,6 @@ import {setActiveBurgerAC, useAppDispatch} from "../../store";
 import {BurgerMenuIcon} from "../../assets";
 import {Burger} from "./Burger";
 
-// import {Favorites, Home, Settings, Trends, Search} from "../../assets";
 
 
 export const Sidebar = () => {
@@ -23,7 +22,7 @@ export const Sidebar = () => {
           <button className={styles.burger__button} type="button" onClick={setActiveBurger}><BurgerMenuIcon /></button>
         </div>
         <ul className={styles.menu__list}>
-          <NavLink  to='/Sushi' className={({ isActive }) =>
+          <NavLink  to='/' className={({ isActive }) =>
               isActive ? styles.menu__container_active : styles.menu__container
           }>
             <li className={styles.menu__title}>РОЛЛЫ</li>
@@ -37,6 +36,11 @@ export const Sidebar = () => {
               isActive ? styles.menu__container_active : styles.menu__container
           }>
             <li className={styles.menu__title}>ПИЦЦА</li>
+          </NavLink>
+          <NavLink  to='/otherDishes' className={({ isActive }) =>
+              isActive ? styles.menu__container_active : styles.menu__container
+          }>
+            <li className={styles.menu__title}>ДРУГИЕ БЛЮДА</li>
           </NavLink>
           <NavLink  to='/Snacks' className={({ isActive }) =>
               isActive ? styles.menu__container_active : styles.menu__container

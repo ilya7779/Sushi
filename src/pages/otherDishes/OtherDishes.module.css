@@ -1,7 +1,3 @@
-.containerDrinksCards {
-    display: flex;
-    flex-direction: column;
-}
 .containerRollsCards {
     display: flex;
     justify-content: center;

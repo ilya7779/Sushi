@@ -9,6 +9,7 @@
 }
 .burger__button {
     display: none;
+    position: fixed;
     margin-left: 20px;
 
     padding: 0;

@@ -22,7 +22,7 @@ export const Burger = () => {
             <div className={styles.burger__blackout}></div>
             <div className={styles.burger__container} onClick={e => e.stopPropagation()}>
                 <ul className={styles.menu__list}>
-                    <NavLink  to='/Sushi' className={({ isActive }) =>
+                    <NavLink  to='/' className={({ isActive }) =>
                         isActive ? styles.menu__container_active : styles.menu__container
                     } onClick={setActiveBurger}>
                         <li className={styles.menu__title}>РОЛЛЫ</li>
@@ -36,6 +36,11 @@ export const Burger = () => {
                         isActive ? styles.menu__container_active : styles.menu__container
                     } onClick={setActiveBurger}>
                         <li className={styles.menu__title}>ПИЦЦА</li>
+                    </NavLink>
+                    <NavLink  to='/otherDishes' className={({ isActive }) =>
+                        isActive ? styles.menu__container_active : styles.menu__container
+                    } onClick={setActiveBurger}>
+                        <li className={styles.menu__title}>ДРУГИЕ БЛЮДА</li>
                     </NavLink>
                     <NavLink  to='/Snacks' className={({ isActive }) =>
                         isActive ? styles.menu__container_active : styles.menu__container

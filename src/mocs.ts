@@ -141,16 +141,158 @@ export const snacks = [
     composition: 'Состав: темпура мидии', price: '18,9 GEL' },
   { id: 58, poster: `${shrimpTempura}`, title: 'Темпура креветки',
     composition: 'Состав: темпура креветки', price: '19,9 GEL' },
+  { id: 70, poster: `${shrimpTempura}`, title: 'Картофель фри',
+    composition: 'Состав: картофель фри', price: '5 GEL' },
+  { id: 71, poster: `${shrimpTempura}`, title: 'Картофель по-мексикански',
+    composition: 'Состав: картофель по-мексикански', price: '6 GEL' },
+  // { id: 72, poster: `${shrimpTempura}`, title: 'Куриные крылышки',
+  //   composition: 'Состав: куриные крылышки', price: '12 GEL' },
+  { id: 73, poster: `${shrimpTempura}`, title: 'Луковые кольца',
+    composition: 'Состав: Луковые кольца', price: '8 GEL' },
 ];
 
 
-// export const pizza = [
-//   { id: 59, poster: `${musselTempura}`, title: 'Темпура мидии',
-//     composition: 'Состав: темпура мидии', price: '18,9 GEL' },
-//   { id: 60, poster: `${shrimpTempura}`, title: 'Темпура креветки',
-//     composition: 'Состав: темпура креветки', price: '19,9 GEL' },
-// ];
+export const pizzas = [
+  { id: 59, poster: `${musselTempura}`, title: 'Маргарита',
+    composition: 'Состав: моцарелла, томатный соус, оливковое масло, помидор', price: '17 GEL' },
+  { id: 60, poster: `${shrimpTempura}`, title: 'Цезарь',
+    composition: 'Состав: куриная грудка, моцарелла, пармезан, листья салата, помидоры чери, соус цезарь', price: '20 GEL' },
+  { id: 61, poster: `${shrimpTempura}`, title: 'Пеперони',
+    composition: 'Состав: моцарелла, сырокопчёная колбаса, томатный соус', price: '20 GEL' },
+  // { id: 62, poster: `${shrimpTempura}`, title: 'С прошутто',
+  //   composition: 'Состав: моцарелла, прошутто, руккола, пармезан', price: '20 GEL' },
+  { id: 63, poster: `${shrimpTempura}`, title: 'Четыре сыра',
+    composition: 'Состав: моцарелла, элементаль, дор-блю, пармезан', price: '20 GEL' },
+  // { id: 64, poster: `${shrimpTempura}`, title: 'Баварская',
+  //   composition: 'Состав: колбаски копчёные, пеперони, сыр, маринованый огурец', price: '20 GEL' },
+  { id: 65, poster: `${shrimpTempura}`, title: 'Гавайская',
+    composition: 'Состав: томатный соус, моцарелла, ананасы, ветчина', price: '20 GEL' },
+  // { id: 66, poster: `${shrimpTempura}`, title: 'Мясная',
+  //   composition: 'Состав: мясной фарш, помидоры, лук репчатый, сыр орегано', price: '18 GEL' },
+  // { id: 67, poster: `${shrimpTempura}`, title: 'Карбонара',
+  //   composition: 'Состав: бекон, моцарелла, яйцо, сливки', price: '14 GEL' },
+];
 
+export const salads = [
+  // { id: 100, poster: `${musselTempura}`, title: 'Цезарь с копчённой курицей',
+  //   composition: '', price: '14 GEL' },
+  // { id: 101, poster: `${musselTempura}`, title: 'С баклажанами по-корейски',
+  //   composition: '', price: '9 GEL' },
+  { id: 102, poster: `${musselTempura}`, title: 'Салат с чукой',
+    composition: '', price: '12 GEL' },
+  // { id: 103, poster: `${musselTempura}`, title: 'Цезарь с креветками',
+  //   composition: '', price: '18 GEL' },
+  // { id: 104, poster: `${musselTempura}`, title: 'Морковь по-корейски',
+  //   composition: '', price: '8 GEL' },
+  // { id: 105, poster: `${musselTempura}`, title: 'Кукси по-корейски',
+  //   composition: '', price: '14 GEL' },
+];
+
+export const vienneseWaffles = [
+  { id: 106, poster: `${musselTempura}`, title: 'С шоколадом и орехами',
+     composition: '', price: '10 GEL' },
+  { id: 107, poster: `${musselTempura}`, title: 'Со сгущёнкой и орехами',
+    composition: '', price: '10 GEL' },
+  { id: 108, poster: `${musselTempura}`, title: 'Мороженое с ягодами',
+    composition: '', price: '10 GEL' },
+  { id: 109, poster: `${musselTempura}`, title: 'С яйцом пашот',
+    composition: '', price: '12 GEL' },
+  { id: 110, poster: `${musselTempura}`, title: 'С лососем',
+    composition: '', price: '16 GEL' },
+];
+
+export const khachapuris = [
+  { id: 111, poster: `${musselTempura}`, title: 'Хачапури по Аджарски',
+    composition: '', price: '12 GEL' },
+  { id: 112, poster: `${musselTempura}`, title: 'Хачапури Мегрули',
+    composition: '', price: '14 GEL' },
+  { id: 113, poster: `${musselTempura}`, title: 'Хачапури Имерули',
+    composition: '', price: '12 GEL' },
+];
+
+export const coffees = [
+  { id: 111, title: 'Американо', price: '3.5 GEL' },
+  { id: 112, title: 'Эспрессо', price: '3.5 GEL' },
+  { id: 113, title: 'Капучино', price: '4 GEL' },
+  { id: 114, title: 'Латте', price: '4.5 GEL' },
+  { id: 115, title: 'Мокачино', price: '6 GEL' },
+  { id: 116, title: 'Раф', price: '7 GEL' },
+  { id: 117, title: 'Какао', price: '5 GEL' },
+  { id: 118, title: 'Американо с молоком', price: '4 GEL' },
+  { id: 119, title: 'Американо с шоколадом', price: '5 GEL' },
+  { id: 120, title: 'Американо с коньяком', price: '6 GEL' },
+  { id: 121, title: 'Американо с Bellis', price: '8.5 GEL' },
+  { id: 122, title: 'Чай чёрный, зелёныйё, малина', price: '5 GEL' },
+  { id: 123, title: 'Крафтовый чай', price: '8 GEL' },
+];
+
+export const coldDrinks = [
+  { id: 124, poster: '', title: 'Кола', price: '3 GEL' },
+  { id: 125, poster: '', title: 'Вода без газа Bakhmaro', price: '3 GEL' },
+  { id: 126, poster: '', title: 'Вода без газа Nabeghlavi', price: '3 GEL' },
+  { id: 127, poster: '', title: 'Red bull', price: '6 GEL' },
+  { id: 128, poster: '', title: 'Натахтари', price: '3 GEL' },
+];
+
+export const otherAlcohols = [
+  { id: 129, poster: '', title: 'Коньяк Sarajishvili 3 * 100ml', price: '8.5 GEL' },
+  { id: 130, poster: '', title: 'Коньяк Sarajishvili 5 * 100ml', price: '11.5 GEL' },
+  { id: 131, poster: '', title: 'Чача 100ml', price: '6.5 GEL' },
+  { id: 132, poster: '', title: 'Шампанское White Brut', price: '22 GEL' },
+  { id: 133, poster: '', title: 'Ром Bacardi 100ml', price: '15 GEL' },
+  { id: 134, poster: '', title: 'Ликёр Baileys 100ml', price: '14 GEL' },
+  { id: 135, poster: '', title: 'Джин 100ml', price: '15 GEL' },
+  { id: 136, poster: '', title: 'Текила 100ml', price: '14 GEL' },
+  { id: 137, poster: '', title: 'Виски Ballantiprice', price: '11 GEL' },
+  { id: 138, poster: '', title: 'Виски Jack Daniprice', price: '21 GEL' },
+  { id: 139, poster: '', title: 'Виски Jameprice', price: '17 GEL' },
+];
+
+export const coctails = [
+  { id: 140, poster: `${musselTempura}`, title: 'Jungle Juice',
+    composition: 'gin, pisan, lemon fresh, orange juice', price: '12 GEL' },
+  { id: 141, poster: `${musselTempura}`, title: 'Night Gin',
+    composition: 'gin, lemon fresh, crema de classic', price: '11 GEL' },
+  { id: 142, poster: `${musselTempura}`, title: 'Godfather',
+    composition: 'whiskey, creme de cafe', price: '13 GEL' },
+  { id: 143, poster: `${musselTempura}`, title: 'Aperol Spritz',
+    composition: 'brut champagne, soda', price: '17 GEL' },
+  { id: 144, poster: `${musselTempura}`, title: 'Tequila Sunrise',
+    composition: 'tequila, grenadine, orange juice', price: '13 GEL' },
+  { id: 145, poster: `${musselTempura}`, title: 'Pina Colada',
+    composition: 'light rum, ice cream, coconut liqueur, pineapple juice', price: '19 GEL' },
+  { id: 146, poster: `${musselTempura}`, title: 'Hawaii',
+    composition: 'light rum, curacao blue, coconut liqueur, pineapple juice', price: '13 GEL' },
+  { id: 147, poster: `${musselTempura}`, title: 'Long Ice Tea',
+    composition: 'vodka, tequila, gin, cola, lemon juice, light rum, triple sec', price: '19 GEL' },
+  { id: 148, poster: `${musselTempura}`, title: 'Blue Laggon',
+    composition: 'rum, sprite, curacao blue, lemon fresh', price: '19 GEL' },
+  { id: 149, poster: `${musselTempura}`, title: 'Mohito',
+    composition: 'rum, mint, lime, sprite', price: '15 GEL' },
+  { id: 150, poster: `${musselTempura}`, title: 'Bahama mama',
+    composition: 'liquor, coconut, light rum, pineapple juice, orange juice', price: '15 GEL' },
+  { id: 151, poster: `${musselTempura}`, title: 'Tropical Dream',
+    composition: 'banana, melon, pisan, light rum, coconut liqueur, pineapple juice, orange juice', price: '15 GEL' },
+];
+
+export const beers = [
+  { id: 152, title: 'Karva 0.5', price: '5 GEL' },
+  { id: 153, title: 'Leffe 0.33', price: '8 GEL' },
+  { id: 154, title: 'Stella Artois 0.33', price: '6 GEL' },
+  { id: 155, title: 'Corona Extra 0.33', price: '7 GEL' },
+  { id: 156, title: 'Efes 0.33', price: '4 GEL' },
+  { id: 157, title: 'Имбирное пиво б/а', price: '5 GEL' },
+  { id: 158, title: 'Разливное Taati 0.5', price: '6 GEL' },
+  { id: 159, title: 'Разливное Staropramen 0.5', price: '5 GEL' },
+];
+
+export const wines = [
+  { id: 160, title: 'Mtsvane-Kisi 0.7l', price: '30 GEL' },
+  { id: 161, title: 'Mukuzani 0.7l', price: '37 GEL' },
+  { id: 162, title: 'Saperavi', price: '25 GEL' },
+  { id: 163, title: 'Kindzmarauli', price: '37 GEL' },
+  { id: 164, title: 'Tsinandali', price: '20 GEL' },
+];
 
 // export const sauces = [
 //   { id: 51, poster: `${ginger}`, title: 'Имбирь', composition: '', price: '2 GEL' },

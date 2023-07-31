@@ -1,5 +1,4 @@
 import styles from './RollCard.module.css';
-import PhiladelphiaSalmon from "../../assets/photos/PhiladelphiaSalmon.jpg";
 
 export const RollCard = (props: any) => {
 

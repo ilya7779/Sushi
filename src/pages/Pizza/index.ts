@@ -1,1 +1,1 @@
-export * from './Pizza'
+export * from './Pizzas'
