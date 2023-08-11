@@ -1,5 +1,5 @@
 import styles from './OtherDishes.module.css';
-import {khachapuris, salads, vienneseWaffles} from "../../mocs";
+import {khachapuris, salads, vienneseWaffles, soups} from "../../mocs";
 import {RollCard} from "../../components";
 
 
@@ -13,6 +13,9 @@ export const OtherDishes = () => {
     const resultKhachapuri = khachapuris.map((khachapuri) =>
         <RollCard id={khachapuri.id} poster={khachapuri.poster} title={khachapuri.title}
                   composition={khachapuri.composition} price={khachapuri.price}/>)
+    const resultSoup = soups.map((soup) =>
+        <RollCard id={soup.id} poster={soup.poster} title={soup.title}
+                  composition={soup.composition} price={soup.price}/>)
 
     return (
         <main className={styles.wrapper}>
@@ -27,6 +30,10 @@ export const OtherDishes = () => {
             <h2 className={styles.rollsCards__title}>Хачапури</h2>
             <div className={styles.containerRollsCards}>
                 {resultKhachapuri}
+            </div>
+            <h2 className={styles.rollsCards__title}>Супы</h2>
+            <div className={styles.containerRollsCards}>
+                {resultSoup}
             </div>
         </main>
     );

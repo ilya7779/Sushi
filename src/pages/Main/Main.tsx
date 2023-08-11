@@ -1,6 +1,6 @@
 import styles from './Main.module.css';
 import {RollCard} from "../../components";
-import {classicalRolls, gunkans, makiRolls, others, sushi, tempuraRolls} from "../../mocs";
+import {classicalRolls, gunkans, makiRolls, sushi, tempuraRolls} from "../../mocs";
 
 
 export const Main = () => {
@@ -20,9 +20,6 @@ export const Main = () => {
   const resultGunkans = gunkans.map((gunkan) =>
     <RollCard id={gunkan.id} poster={gunkan.poster} title={gunkan.title}
               composition={gunkan.composition} price={gunkan.price}/>)
-  const resultOthers = others.map((other) =>
-    <RollCard id={other.id} poster={other.poster} title={other.title}
-              composition={other.composition} price={other.price}/>)
   // const resultSauces = sauces.map((sauce) =>
   //   <RollCard id={sauce.id} poster={sauce.poster} title={sauce.title}
   //             composition={sauce.composition} price={sauce.price}/>)
@@ -47,10 +44,6 @@ export const Main = () => {
       <h2 className={styles.rollsCards__title}>Гунканы</h2>
       <div className={styles.containerRollsCards}>
         {resultGunkans}
-      </div>
-      <h2 className={styles.rollsCards__title}>Другое</h2>
-      <div className={styles.containerRollsCards}>
-        {resultOthers}
       </div>
       {/*<h2 className={styles.rollsCards__title}>Соусы</h2>*/}
       {/*<div className={styles.containerRollsCards}>*/}

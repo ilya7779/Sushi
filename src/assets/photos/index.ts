@@ -1,3 +1,5 @@
+import noImage from './noImage.png'
+
 import philadelphiaSalmon from './philadelphiaSalmon.png'
 import philadelphiaWithSalmonLight from './philadelphiaWithSalmonLight.png'
 import philadelphiaEel from './philadelphiaEel.png'
@@ -19,6 +21,7 @@ import bonitoShrimp from './bonitoShrimp.png'
 import greenDragon from './greenDragon.png'
 import blackDragon from './blackDragon.png'
 import redDragon from './redDragon.png'
+import goldDragon from './goldDragon.png'
 
 import tempuraRollWithShrimp from './tempuraRollWithShrimp.png'
 import tempuraRollWithSalmon from './tempuraRollWithSalmon.png'
@@ -56,6 +59,10 @@ import gunkanWithEel from './gunkanWithEel.png'
 import gunkanWithTunaAndCucumber from './gunkanWithTunaAndCucumber.png'
 import gunkanWithShrimp from './gunkanWithShrimp.png'
 
+import frenchFries from './frenchFries.png'
+import mexicanPotato from './mexicanPotato.png'
+import chickenWings from './chickenWings.png'
+import onionRings from './onionRings.png'
 import musselTempura from './musselTempura.png'
 import shrimpTempura from './shrimpTempura.png'
 import soupPhiladelphia from './soupPhiladelphia.png'
@@ -69,14 +76,38 @@ import wasabi from './wasabi.png'
 import sushiSticks from './sushiSticks.png'
 import unagiSauce from './unagiSauce.png'
 
+import margarita from './margarita.png'
+import fourCheese from './fourCheese.png'
+import bavarian from './bavarian.png'
+import pepperoni from './pepperoni.png'
+import cezar from './cezar.png'
+import hawaiian from './hawaiian.png'
+import withProsciutto from './withProsciutto.png'
+import halal from './halal.png'
+import carbonara from './carbonara.png'
 
-export {philadelphiaSalmon, philadelphiaWithSalmonLight, philadelphiaEel, philadelphiaShrimp,
+import caesarSaladWithShrimps from './caesarSaladWithShrimps.png'
+import caesarChicken from './caesarChicken.png'
+
+import iceCreamAndBerries from './iceCreamAndBerries.png'
+
+import adjarianKhachapuri from './adjarianKhachapuri.png'
+import khachapuriMegruli from './khachapuriMegruli.png'
+import khachapuriImeruli from './khachapuriImeruli.png'
+
+import jungleJuice from './jungleJuice.png'
+
+
+export {noImage, philadelphiaSalmon, philadelphiaWithSalmonLight, philadelphiaEel, philadelphiaShrimp,
   philadelphiaWithSalmonAndShrimp, philadelphiaWithCheese, philadelphiaWithTuna, californiaSalmon, californiaEel,
   californiaTuna, californiaWithShrimp, vegan, musselMeat, crabRoll, bonitoSalmon, bonitoTuna, bonitoBabyOctopus,
-  bonitoShrimp, greenDragon, blackDragon, redDragon, tempuraRollWithShrimp, tempuraRollWithSalmon,
+  bonitoShrimp, greenDragon, blackDragon, redDragon, goldDragon, tempuraRollWithShrimp, tempuraRollWithSalmon,
   tempuraRollWithMusselMeat, tempuraRollWithEel, tempuraRollWithCrabSticks, canadaCheese, hayashiRoll,
   friendShrimpInPanko, salmon, eel, tuna, shrimp, octopus, mussel, avocado, cucumber, cheese, setOne, setTwo, setThree,
   setFour, setTempura, withSalmon, withTuna, withEel, withShrimpTempura, veganSushi, gunkanWithSalmonAndAvocado,
   gunkanWithEel, gunkanWithTunaAndCucumber, gunkanWithShrimp, musselTempura, shrimpTempura, ginger, soySauce, spicySauce,
-  cheeseSauce, sweetChilli, wasabi, sushiSticks, unagiSauce, soupPhiladelphia, saladWithChuka}
+  cheeseSauce, sweetChilli, wasabi, sushiSticks, unagiSauce, soupPhiladelphia, saladWithChuka, margarita, fourCheese,
+  bavarian, pepperoni, cezar, hawaiian, withProsciutto, halal, carbonara, caesarSaladWithShrimps, caesarChicken,
+  iceCreamAndBerries, adjarianKhachapuri, khachapuriMegruli, khachapuriImeruli, frenchFries, mexicanPotato,
+  chickenWings, onionRings, jungleJuice}
 
